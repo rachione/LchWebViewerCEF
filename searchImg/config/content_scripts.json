@@ -1,0 +1,8 @@
+ {
+     "content_scripts":
+     {
+         "css": ["searchImg/UI/css/searchImg.css"],
+         "js": ["searchImg/UI/js/jquery-3.3.1.min.js", "searchImg/UI/js/test.js"]
+     }
+
+ }

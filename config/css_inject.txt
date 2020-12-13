@@ -1,0 +1,7 @@
+
+let style = document.createElement('style');
+let head = document.head || document.getElementsByTagName("head")[0];
+style.id='mycss';
+style.type = 'text/css';
+style.textContent = `$css`;
+head.append(style);

@@ -1,0 +1,8 @@
+ {
+     "content_scripts":
+     {
+         "css": ["extendUI/UI/css/fileTranfer.css"],
+         "js": ["extendUI/UI/js/jquery-3.3.1.min.js", "extendUI/UI/js/main.js"]
+     }
+
+ }

@@ -1,0 +1,15 @@
+{
+    "destSets":
+    {
+        "paths": [
+        {
+            "name": "Download",
+            "path": "D:\\Download"
+        }],
+        "group": [
+            [
+                0
+            ]
+        ]
+    }
+}

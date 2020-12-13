@@ -1,0 +1,24 @@
+{
+    "App": [
+    {
+        "type": "extendUI",
+        "title": "twitter",
+        "url": "https://twitter.com/",
+        "custom":
+        {
+            "window_w": "0.333r"
+        }
+
+    },
+    {
+        "type": "extendUI",
+        "title": "pixiv",
+        "url": "https://www.pixiv.net/ranking.php?mode=female",
+        "custom":
+        {
+            "window_w": "0.666r"
+        }
+
+    }]
+
+}

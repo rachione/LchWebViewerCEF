@@ -1,0 +1,123 @@
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #21A1F0;
+}
+
+body {
+    margin: 0;
+
+
+}
+
+#pictureSearchWindows {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+}
+
+
+#pictureSearchContainer {
+    overflow: auto;
+    overflow-x: hidden;
+    width: inherit;
+    height: inherit;
+}
+
+
+
+
+
+
+#pictureSearchHeader {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(2, 117, 216);
+    padding: 10px 15px;
+
+
+
+}
+
+
+
+#pictureSearchHeader h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+
+#pictureSearchSettingBtn {
+    float: right;
+    height: 0px;
+
+}
+
+#pictureSearchSettingBtn .myglyph {
+    font-size: 25px;
+    line-height: 18px;
+    fill: #fff;
+
+    cursor: pointer;
+    position: relative;
+    top: -9px;
+    left: 5px;
+
+}
+
+#pictureSearchSettingBtn:hover .myglyph {
+    fill: #94cbfc;
+}
+
+.myglyph {
+    fill: rgb(101, 119, 134);
+    font-size: 15px;
+    line-height: 1.3125;
+    height: 1.25em;
+}
+
+.actionBtn {
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(101, 119, 134);
+}
+
+.scrollbar-default::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.scrollbar-default::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-default::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #21A1F0;
+}
